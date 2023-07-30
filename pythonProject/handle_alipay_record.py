@@ -1,6 +1,15 @@
 import csv
 import re
 
+class DingTalkRecord:
+    transactionNumber = ''
+    commodityOrServiceName = ''
+    amountOfMoney = ''
+    paymentMethod=''
+    paymentTime = ''
+    ticketArchiveFile=''
+    remarks = ''
+    counterparty = ''
 
 class AlipayRecord:
     transactionNumber = ''
@@ -113,3 +122,4 @@ def wechatpayRecordHandle():
 
 if __name__ == "__main__":
     wechatpayRecordHandle()
+    alipayRecordHandle()
