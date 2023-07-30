@@ -1,6 +1,7 @@
 import csv
 import re
 
+#  ding
 class DingTalkRecord:
     transactionNumber = ''
     commodityOrServiceName = ''
